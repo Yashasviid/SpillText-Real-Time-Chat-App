@@ -4,8 +4,8 @@ import { useState } from "react";
 import { useUser, UserButton } from "@clerk/nextjs";
 import { useQuery, useMutation } from "convex/react";
 import { useRouter, usePathname } from "next/navigation";
-import { api } from "@/convex/_generated/api";
-import { Id } from "@/convex/_generated/dataModel";
+import { api } from "../convex/_generated/api";
+import { Id } from "../convex/_generated/dataModel";
 import {
   Search,
   Plus,
