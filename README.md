@@ -1,8 +1,8 @@
-# LiveChat — Real-Time Messaging App
+# SpillText — Real-Time Messaging App
 
-A beautiful, production-ready live chat application built with **Next.js 14**, **TypeScript**, **Clerk**, and **Convex**.
+Where Conversation flows , SpillText is a live chat web-application built with **Next.js**, **TypeScript**, **Clerk**, and **Convex**.
 
-![LiveChat](https://via.placeholder.com/1200x600/0d1424/22d3a0?text=LiveChat+App)
+![SpillText](https://spill-text-real-time-chat-gofdwos4w-yashasviids-projects.vercel.app)
 
 ## ✨ Features
 
@@ -12,7 +12,6 @@ A beautiful, production-ready live chat application built with **Next.js 14**, *
 - 🟢 **Online Presence** — See who's online in real-time
 - 🗑️ **Delete Messages** — Remove your own messages
 - ✅ **Read Receipts** — Know when messages are read
-- 😀 **Emoji Support** — Send emojis with a built-in picker
 - ⚡ **Real-time** — Powered by Convex subscriptions
 - 🎨 **Dark Theme** — Sleek dark UI with teal accents
 
@@ -32,7 +31,7 @@ A beautiful, production-ready live chat application built with **Next.js 14**, *
 
 ```bash
 git clone <your-repo>
-cd livechat-app
+cd SpillText
 npm install
 ```
 
@@ -106,7 +105,7 @@ Open [http://localhost:3000](http://localhost:3000)
 ## 📁 Project Structure
 
 ```
-livechat-app/
+SpillText/
 ├── app/
 │   ├── layout.tsx              # Root layout with Clerk + Convex providers
 │   ├── page.tsx                # Home (redirects to /chat after auth)
@@ -202,8 +201,4 @@ The app uses CSS variables for easy theming:
 }
 ```
 
----
 
-## 📝 License
-
-MIT
