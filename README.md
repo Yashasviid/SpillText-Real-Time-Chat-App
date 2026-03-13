@@ -1,4 +1,4 @@
-# SpillText — Real-Time Messaging App
+# SpillText : Real-Time Messaging App
 
 Where Conversation flows , SpillText is a live chat web-application built with **Next.js**, **TypeScript**, **Clerk**, and **Convex**.
 
@@ -6,14 +6,14 @@ Where Conversation flows , SpillText is a live chat web-application built with *
 👉 https://spill-text-real-time-chat-gofdwos4w-yashasviids-projects.vercel.app
 ## ✨ Features
 
-- 🔐 **Auth** — Sign up/in with Clerk (email, Google, GitHub)
-- 💬 **Direct Messages** — 1-on-1 real-time conversations
-- 👥 **Group Chats** — Create groups with multiple members
-- 🟢 **Online Presence** — See who's online in real-time
-- 🗑️ **Delete Messages** — Remove your own messages
-- ✅ **Read Receipts** — Know when messages are read
-- ⚡ **Real-time** — Powered by Convex subscriptions
-- 🎨 **Dark Theme** — Sleek dark UI with teal accents
+- 🔐 **Auth** : Sign up/in with Clerk (email, Google, GitHub)
+- 💬 **Direct Messages** : 1-on-1 real-time conversations
+- 👥 **Group Chats** : Create groups with multiple members
+- 🟢 **Online Presence** : See who's online in real-time
+- 🗑️ **Delete Messages** : Remove your own messages
+- ✅ **Read Receipts** : Know when messages are read
+- ⚡ **Real-time** : Powered by Convex subscriptions
+
 
 ---
 
