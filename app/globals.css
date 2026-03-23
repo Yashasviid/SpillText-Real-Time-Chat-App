@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #3b82f6;
+  --accent-2: #6366f1;
+  --accent-3: #22d3a0;
+  --bg-dark: #070c18;
+  --bg-sidebar: #0d1526;
+  --bg-chat: #0a1020;
+  --sent-bubble: #1e3a5f;
+  --received-bubble: #141d2e;
+  --border: rgba(255, 255, 255, 0.06);
+  --text-primary: #e8edf8;
+  --text-secondary: #4a5a7a;
+  --text-muted: #2a3550;
+}
+
+[data-theme="light"] {
+  --bg-dark: #f0f4ff;
+  --bg-sidebar: #e2e8f8;
+  --bg-chat: #f5f7ff;
+  --sent-bubble: #2563eb;
+  --received-bubble: #e2e8f0;
+  --border: rgba(0, 0, 0, 0.08);
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  font-family: var(--font-jakarta), 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.15); }
+
+[data-theme="light"] ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); }
+
+.message-appear {
+  animation: messageAppear 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+@keyframes messageAppear {
+  from { opacity: 0; transform: scale(0.85) translateY(8px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.typing-dot { animation: typingDot 1.4s ease-in-out infinite; }
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+@keyframes typingDot {
+  0%, 60%, 100% { transform: translateY(0); opacity: 0.4; }
+  30% { transform: translateY(-8px); opacity: 1; }
+}
+
+.online-pulse { animation: onlinePulse 2s ease-in-out infinite; }
+@keyframes onlinePulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 211, 160, 0.4); }
+  50% { box-shadow: 0 0 0 4px rgba(34, 211, 160, 0); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.cl-internal-b3fm6y,
+.cl-footer,
+[data-localization-key="footerPageLink__help"],
+[data-localization-key="footerPageLink__privacy"],
+[data-localization-key="footerPageLink__terms"] {
+  display: none !important;
+}
