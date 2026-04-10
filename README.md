@@ -2,7 +2,7 @@
 
 Where Conversation flows , SpillText is a live chat web-application built with **Next.js**, **TypeScript**, **Clerk**, and **Convex**.
 
-**Live Demo:** https://spill-text-real-time-chat-gofdwos4w-yashasviids-projects.vercel.app
+**Live Demo:** https://spill-text-real-time-chat-app.vercel.app/
 
 ---
 
